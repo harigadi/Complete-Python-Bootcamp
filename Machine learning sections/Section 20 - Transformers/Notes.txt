@@ -1,0 +1,10 @@
+Go to this URL https://jalammar.github.io/illustrated-transformer/
+
+1.First do token embedding( convert the input text to vector)
+2. Linear transformation : create Q,K, V by multiplying the embeddings by learned weights matrices wq,wk, wv
+3.Compute attention scores: here we multiply the Wq matrices with K matrics got for each word.
+4.Scaling: We take up the scores from point 3, and scale down by dividing the scores by the root of Dk
+
+https://www.youtube.com/watch?v=csWluHwfsB8
+
+
